@@ -1,0 +1,59 @@
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  color: #e22797;
+  text-transform: uppercase;
+  text-align: left;
+}
+h2 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 1.875em;
+  color: #e22797;
+  text-transform: capitalize;
+  text-align: left;
+}
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+  color: #e22797;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.5em;
+}
+
+li a {
+  color: #fd9651;
+  font-size: 1em;
+  font-family: "Work Sans", sans-serif;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ef512c;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-image: url("AdobeStock_441618890.jpeg");
+  background-size: cover;
+  background-repeat: none;
+  background-color: #f3c8f3;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
