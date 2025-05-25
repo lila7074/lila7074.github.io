@@ -1,3 +1,33 @@
+* {margin: 0; padding: 0;}s
+
+#wrapper { width: 80%;
+margin: auto; }
+
+header { 
+width:100% ;
+text-align: center;
+margin: 2em 0;
+padding-top: 120px;
+}
+
+nav {
+  font-family: "Work Sans", sans-serif;
+  width:100%;
+  position: fixed;
+  z-index: 1000;
+  text-align: right;
+  float: right;
+  overflow: hidden;
+  top: 0;
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: #fd9651;
+  background-color:#fce9d2 ;
+}
+
+
 h1 {
   font-family: "Abril Fatface", serif;
   font-weight: 400;
@@ -24,13 +54,34 @@ p {
   line-height: 1.5em;
 }
 
-li a {
+ul {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  list-style: none;
+  position: sticky;
+  overflow: hidden;
+  line-height: 2.25em;
+  background-color:#fce9d2 ;
+
+}
+
+li {
+ float: right;
+}
+
+li a{
+  display: block;
   color: #fd9651;
-  font-size: 1em;
-  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  padding: 2em 1em;
+  text-decoration: none;
 }
 a:link {
   text-decoration: none;
+  text-align: match-parent;
+
 }
 
 a:visited {
@@ -40,20 +91,71 @@ a:visited {
 a:hover {
   text-decoration: underline;
   color: #ef512c;
+  background-color: #f3c8f3;
 }
 
-ul {
-  list-style: none;
-}
 
 body {
   background-image: url("AdobeStock_441618890.jpeg");
   background-size: cover;
   background-repeat: none;
   background-color: #f3c8f3;
+  background-position: center;
+  position: relative;
 }
 
 img {
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  position: center;
+}
+.columns { 
+  display: box;
+  float: right;
+  display: inline-block;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1 {width: 8.33%;} .col-2 {width: 16.66%;} .col-3 {width: 25%;} .col-4 {width: 33.33%;} .col-5 {width: 41.66%;} .col-6 {width: 50%;} .col-7 {width: 58.33%;} .col-8 {width: 66.66%;} .col-9 {width: 75%;}
+.col-10 {width: 83.33%;} .col-11 {width: 91.66%;} .col-12 {width: 100%;}
+div {
+  padding: 0em 0em;
+}
+
+#container {
+width: 80%;
+margin: auto;
+position: relative;
+clear: both;
+padding: 2em;
+width: 30%;
+margin:auto;
+overflow: auto;
+display: inline-block;
+background-color: #fd9651;
+}
+
+footer {
+ font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+  color: #e22797;
+  text-align: center;
+  line-height: 1.5em;
+  position: static;
+  text-transform: uppercase;
   width: 100%;
-  height: 100%;
+  padding: 2em;
+  flex: 1;
+  left: 0;
+  bottom: 0;
 }
