@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Nanum Myeongjo", serif;
+}
+html, body {
+  height: auto;
+  width: 100%;
+  position: center;
+}
+body {
+  background-image: url("second-background.png");
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: center;
+  animation: fadeIn 2s ease-in-out;
+}
+.top-first-container {
+  text-align: center;
+  position: relative;
+  align-items: center;
+  background-color: white;
+}
+.top-heading {
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  padding: 10px;
+  font-size: 13em;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  line-height: 1.25;
+}
+.tag-img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.Wool-header, .Cotton-header, .Hemp-header, .Silk-header, .Linen-header {
+  font-size: 15em;
+  color: #523A13;
+  text-align: center;
+  align-items: center;
+  padding-top: 300px;
+  position: relative;
+  z-index: 0;
+}
+
+.intro-paragraph {
+  text-align: center;
+  font-size: 3em;
+  color: #523A13;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.wool-container-header {
+  position: relative;
+  padding-bottom: 300px;
+  padding-top: 120px;
+ 
+}
+.wool-container {
+  text-align: center;
+}
+.cotton-container {
+  text-align: center;
+  padding: 20px;
+  padding-top: 15%;
+}
+
+.cotton-container-header {
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 120px;
+ 
+}
+.hemp-container-header {
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 20%;
+  align-items: center;
+}
+.hemp-img {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  z-index: 1;
+  padding-top: 60%;
+  transition: transform 0.3s ease-in-out;
+}
+.hemp-img:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+  cursor: pointer;
+}
+.hemp-paragraph {
+  font-size: 2.2em;
+  color: #523A13;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50%;
+}
+.silk-container-header {
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 5%;
+  margin: 0 auto;
+  text-align: center;
+}
+.silk-paragraph {
+  font-size: 2.2em;
+  color: #523A13;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 25%;
+}
+.linen-container-header {
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+.linen-paragraph {
+  font-size: 2.2em;
+  color: #523A13;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40%;
+  padding-bottom: 100px;
+}
+.wool-paragraph, .cotton-paragraph {
+  font-size: 2.2em;
+  color: #523A13;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.wool-list-paragraph, .cotton-list-paragraph, .hemp-list-paragraph, .silk-list-paragraph, .linen-list-paragraph {
+  font-size: 1.8em;
+  line-height: 1.5;
+  color: #523A13;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+.wool-list-paragraph .wool-list-paragraph-header,
+ .cotton-list-paragraph-header,
+ .hemp-list-paragraph-header,
+.silk-list-paragraph-header,
+ .linen-list-paragraph-header {
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  font-size: 1.8em;
+}
+.wool-list-paragraph ul, .cotton-list-paragraph ul, .hemp-list-paragraph ul, .silk-list-paragraph ul, .linen-list-paragraph ul {
+  list-style-type: circle;
+  padding-left: 20px;
+  list-style-position: outside;
+}
+.hemp-header {
+  text-align: center;
+}
+
+.silk-header {
+  text-align: center;
+}
+.linen-header {
+  text-align: center;
+}
+footer {
+  font-size: 1.5em;
+  color: #523A13;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 60px auto;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+footer a {
+  color: #523A13;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #523A13;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wool-container, .cotton-container, .hemp-container, .silk-container, .linen-container {
+  position: relative;
+}
+
+.wool-img, .cotton-img, .linen-img {
+  position: absolute;
+  padding-bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  z-index: 1;
+  transition: transform 0.3s ease-in-out;
+}
+
+.wool-img:hover, .cotton-img:hover, .linen-img:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+  cursor: pointer;
+}
+
+.wool-img {
+  padding-top: 20%;
+}
+.silk-img {
+  position: absolute;
+  padding-bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  z-index: 1;
+  width: 70%;
+  padding-top: 18%;
+  transition: transform 0.3s ease-in-out;
+}
+.silk-img:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+  cursor: pointer;
+}
+.linen-img {
+  padding-top: 40%;
+}
+.hemp-img img, .cotton-img img, .silk-img img, .linen-img img, .wool-img img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-heading {
+    font-size: 6em;
+    position: static;
+    transform: none;
+    padding: 20px 0;
+    line-height: 1.1;
+  }
+
+  .tag-img {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .intro-paragraph {
+    font-size: 1.8em;
+    width: 90%;
+    padding: 30px 15px;
+  }
+
+  .Wool-header, .Cotton-header, .Hemp-header, .Silk-header, .Linen-header {
+    font-size: 6em;
+    padding-top: 80px;
+    line-height: 1.2;
+  }
+
+  .wool-container, .cotton-container, .hemp-container, .silk-container, .linen-container {
+    padding: 0 15px;
+    margin-bottom: 60px;
+  }
+
+  .wool-paragraph, .cotton-paragraph, .hemp-paragraph, .silk-paragraph, .linen-paragraph {
+    font-size: 1.6em;
+    padding: 250px 15px 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .wool-list-paragraph, .cotton-list-paragraph, .hemp-list-paragraph, .silk-list-paragraph, .linen-list-paragraph {
+    width: 100%;
+    font-size: 1.4em;
+    padding: 20px 15px;
+    box-sizing: border-box;
+  }
+
+  .wool-list-paragraph-header, .cotton-list-paragraph-header, .hemp-list-paragraph-header,
+  .silk-list-paragraph-header, .linen-list-paragraph-header {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+  }
+
+  .wool-img, .cotton-img, .hemp-img, .silk-img, .linen-img {
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  .wool-img {
+    padding-top: 55%;
+  }
+  .cotton-img {
+    padding-top: 40%;
+  }
+
+  .hemp-img {
+    padding-top: 45%;
+    width: 75%;
+  }
+
+  .silk-img {
+    padding-top: 25%;
+    width: 65%;
+  }
+  .linen-img {
+    padding-top: 60%;
+  }
+
+  footer {
+    padding: 30px 15px;
+    margin: 40px auto;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .top-heading {
+    font-size: 4em;
+  }
+
+  .intro-paragraph {
+    font-size: 1.6em;
+  }
+
+  .Wool-header, .Cotton-header, .Hemp-header, .Silk-header, .Linen-header {
+    font-size: 4em;
+    padding-top: 60px;
+  }
+
+  .wool-paragraph, .cotton-paragraph, .hemp-paragraph, .silk-paragraph, .linen-paragraph {
+    font-size: 1.4em;
+    padding: 80px 15px 20px;
+  }
+
+  .wool-list-paragraph, .cotton-list-paragraph, .hemp-list-paragraph, .silk-list-paragraph, .linen-list-paragraph {
+    font-size: 1.2em;
+  }
+
+  .wool-list-paragraph-header, .cotton-list-paragraph-header, .hemp-list-paragraph-header,
+  .silk-list-paragraph-header, .linen-list-paragraph-header {
+    font-size: 1.3em;
+  }
+
+  .wool-img, .cotton-img, .hemp-img, .silk-img, .linen-img {
+    width: 60%;
+    padding-bottom: 20px;
+  }
+
+  .hemp-img {
+    padding-top: 40%;
+    width: 65%;
+  }
+
+  .silk-img {
+    padding-top: 25%;
+    width: 55%;
+  }
+}
