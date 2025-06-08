@@ -68,7 +68,7 @@ body {
  
 }
 .wool-container {
-  margin-top: 20%;
+  margin-top: 40%;
   text-align: center;
 }
 .wool-paragraph {
@@ -77,7 +77,7 @@ body {
   padding: 20px;
   width: 70%;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .wool-img img {
@@ -114,6 +114,7 @@ body {
   width: 70%;
   margin: 0 auto;
   margin-top: 20%;
+  text-align: center;
 }
 
 .cotton-img img {
@@ -142,7 +143,7 @@ body {
 .hemp-img {
   position: absolute;
   top: 30%;
-  left: 55%;
+  left: 53%;
   transform: translate(-50%, -50%);
   width: 65%;
   z-index: 1;
@@ -159,6 +160,7 @@ body {
   width: 70%;
   margin: 0 auto;
   margin-top: 40%;
+  text-align: center;
 }
 .silk-container {
   margin-top: 60%;
@@ -173,7 +175,7 @@ body {
   display: block;
   position: absolute;
   margin-top: 15%;
-  left: 23%;
+  left: 25%;
   transform: translate(-50%, -50%);
   width: 30%;
   z-index: 1;
@@ -189,6 +191,7 @@ body {
   width: 70%;
   margin: 0 auto;
   padding-top: 40%;
+  text-align: center;
 }
 
 .linen-container {
@@ -207,13 +210,14 @@ body {
   width: 70%;
   margin: 0 auto;
   margin-top: 55%;
+  text-align: center;
 }
 
 .linen-img {
   position: absolute;
-  left: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%;
+  width: 47%;
   z-index: 1;
   margin-top: 25%;
   transition: transform 0.3s ease-in-out;
@@ -287,13 +291,7 @@ html {
   }
 }
 
-
-@media only screen and (max-width: 992px) {
-*{
-    margin: 0;
-    left: 0;
-    align-self: center;
-  }
+@media only screen and (max-width: 1200px) {
   .top-heading {
   position: absolute;
   top: 25%;
@@ -315,8 +313,14 @@ html {
     width: 100%;
     box-sizing: border-box;
   }
+  .wool-list-paragraph-header, .cotton-list-paragraph-header, .hemp-list-paragraph-header, .linen-list-paragraph-header, .silk-list-paragraph-header {
+    font-size: 1.8em;
+  }
+  .wool-list-paragraph, .cotton-list-paragraph, .hemp-list-paragraph, .silk-list-paragraph, .linen-list-paragraph {
+     font-size: 1.8em;
+  }
   .Wool-header, .Cotton-header, .Hemp-header, .Silk-header, .Linen-header {
-    font-size: 10em;
+    font-size: 11em;
     color: #523A13;
     text-align: center;
     align-items: center;
@@ -327,10 +331,10 @@ html {
     margin-top: 40%;
   }
   .wool-img img {
-    width: 55%;
+    width: 45%;
     height: auto;
     display: block;
-    margin-top: 20%;
+    margin-top: 15%;
     position: center;
   }
   .wool-paragraph {
@@ -341,27 +345,28 @@ html {
     margin-top: 10%;
   }
   .cotton-container {
-    margin-top: 100%;
+    margin-top: 80%;
   }
   .cotton-img img {
   position: center;
-  width: 70%;
+  width: 50%;
   }
 
 .cotton-paragraph {
   font-size: 1.8em;
   padding: 20px;
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
   margin-top: 20%;
 }
 .hemp-container {
-    margin-top: 40%;
+    margin-top: 50%;
   }
   .hemp-img img {
     position: center;
     padding-top: 5%;
     width: 100%;
+    left: 10%;
   }
   .hemp-paragraph {
     font-size: 1.8em;
@@ -371,7 +376,7 @@ html {
     margin-top: 40%;
   }
   .silk-container {
-    margin-top: 50%;
+    margin-top: 80%;
   }
   .silk-img img {
     padding-top: 5%;
@@ -388,26 +393,20 @@ html {
     margin-top: 50%;
   }
   .linen-img img {
-    padding-top: 20%;
-    width: 150%;
+    padding-top: 0;
+    width: 100%;
   }
   .linen-paragraph {
     font-size: 1.8em;
     padding: 20px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 60%;
+    margin-top: 50%;
   }
 
 }
 
-
-@media only screen and (max-width: 768px) {
-*{
-    margin: 0;
-    left: 0;
-    align-self: center;
-  }
+@media only screen and (max-width: 992px) {
   .top-heading {
   position: absolute;
   top: 25%;
@@ -429,6 +428,12 @@ html {
     width: 100%;
     box-sizing: border-box;
   }
+  .wool-list-paragraph-header, .cotton-list-paragraph-header, .hemp-list-paragraph-header, .linen-list-paragraph-header, .silk-list-paragraph-header {
+    font-size: 1.8em;
+  }
+  .wool-list-paragraph, .cotton-list-paragraph, .hemp-list-paragraph, .silk-list-paragraph, .linen-list-paragraph {
+     font-size: 1.8em;
+  }
   .Wool-header, .Cotton-header, .Hemp-header, .Silk-header, .Linen-header {
     font-size: 10em;
     color: #523A13;
@@ -438,13 +443,129 @@ html {
     z-index: 0;
   }
   .wool-container {
-    margin-top: 60%;
+    margin-top: 50%;
   }
   .wool-img img {
-    width: 120%;
+    width: 45%;
     height: auto;
     display: block;
-    margin-top: 80%;
+    margin-top: 15%;
+    position: center;
+  }
+  .wool-paragraph {
+    font-size: 1.8em;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  .cotton-container {
+    margin-top: 50%;
+  }
+  .cotton-img img {
+  position: center;
+  width: 60%;
+  }
+
+.cotton-paragraph {
+  font-size: 1.8em;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+.hemp-container {
+    margin-top: 40%;
+  }
+  .hemp-img img {
+    position: center;
+    padding-top: 5%;
+    width: 100%;
+    left: 10%;
+  }
+  .hemp-paragraph {
+    font-size: 1.8em;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40%;
+  }
+  .silk-container {
+    margin-top: 40%;
+  }
+  .silk-img img {
+    padding-top: 5%;
+    width: 280%;
+  }
+  .silk-paragraph {
+    font-size: 1.8em;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40%;
+  }
+  .linen-container {
+    margin-top: 50%;
+  }
+  .linen-img img {
+    padding-top: 0;
+    width: 100%;
+  }
+  .linen-paragraph {
+    font-size: 1.8em;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50%;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .top-heading {
+  position: absolute;
+  top: 25%;
+  left: 0%;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  font-size: 10em;
+  line-height: 1.25;
+  }
+  .intro-paragraph {
+    font-size: 2.5em;
+    width: 90%;
+    padding: 30px 15px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+  .tag-img {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .wool-list-paragraph-header, .cotton-list-paragraph-header, .hemp-list-paragraph-header, .linen-list-paragraph-header, .silk-list-paragraph-header {
+    font-size: 1.5em;
+  }
+  .wool-list-paragraph, .cotton-list-paragraph, .hemp-list-paragraph, .silk-list-paragraph, .linen-list-paragraph {
+     font-size: 1.5em;
+  }
+  .Wool-header, .Cotton-header, .Hemp-header, .Silk-header, .Linen-header {
+    font-size: 8em;
+    color: #523A13;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+  }
+  .wool-container {
+    margin-top: 40%;
+  }
+  .wool-img img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-top: 20%;
     position: center;
   }
   .wool-paragraph {
@@ -455,11 +576,11 @@ html {
     margin-top: 5%;
   }
   .cotton-container {
-    margin-top: 100%;
+    margin-top: 60%;
   }
   .cotton-img img {
   position: center;
-  width: 150%;
+  width: 70%;
   }
 
 .cotton-paragraph {
@@ -491,6 +612,7 @@ html {
   .silk-img img {
     padding-top: 5%;
     width: 280%;
+    left: 27%;
   }
   .silk-paragraph {
     font-size: 1.8em;
@@ -503,15 +625,15 @@ html {
     margin-top: 50%;
   }
   .linen-img img {
-    padding-top: 20%;
-    width: 150%;
+    padding-top: 5%;
+    width: 100%;
   }
   .linen-paragraph {
     font-size: 1.8em;
     padding: 20px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 60%;
+    margin-top: 45%;
   }
 }
 
@@ -542,6 +664,12 @@ html {
     width: 100%;
     box-sizing: border-box;
   }
+  .wool-list-paragraph-header, .cotton-list-paragraph-header, .hemp-list-paragraph-header, .linen-list-paragraph-header, .silk-list-paragraph-header {
+    font-size: 1.5em;
+  }
+  .wool-list-paragraph, .cotton-list-paragraph, .hemp-list-paragraph, .silk-list-paragraph, .linen-list-paragraph {
+     font-size: 1.5em;
+  }
   .Wool-header, .Cotton-header, .Hemp-header, .Silk-header, .Linen-header {
     font-size: 6em;
     color: #523A13;
@@ -551,30 +679,29 @@ html {
     z-index: 0;
   }
   .wool-container {
-    margin-top: 60%;
+    margin-top: 30%;
   }
   .wool-img img {
     position: relative;
-    left: -15%;
-    width: 120%;
+    left: 50%;
+    width: 60%;
     height: auto;
     display: block;
-    margin-top: 100%;
-    position: center;
+    margin-top: 28%;
   }
   .wool-paragraph {
     font-size: 1.5em;
-    padding: 20px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: -95%;
   }
+
   .cotton-container {
     margin-top: 50%;
   }
   .cotton-img img {
   position: center;
-  width: 150%;
+  width: 70%;
   }
 
 .cotton-paragraph {
@@ -582,19 +709,19 @@ html {
   padding: 20px;
   width: 90%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .hemp-container {
-    margin-top: 80%;
+    margin-top: 50%;
   }
   .hemp-img img {
     position: relative;
-    left: -15%;
+    left: -10%;
     padding-top: 5%;
     width: 120%;
   }
   .hemp-paragraph {
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding: 20px;
     width: 90%;
     margin: 0 auto;
@@ -608,36 +735,28 @@ html {
     width: 280%;
   }
   .silk-paragraph {
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding: 20px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 40%;
+    margin-top: 35%;
   }
   .linen-container {
-    margin-top: 50%;
+    margin-top: 80%;
   }
   .linen-img img {
-    padding-top: 20%;
-    width: 150%;
+    padding-top: 40%;
+    width: 130%;
+    left: -16%;
   }
   .linen-paragraph {
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding: 20px;
     width: 90%;
     margin: 0 auto;
     margin-top: 60%;
   }
-  .wool-list-paragraph-header,
- .cotton-list-paragraph-header,
- .hemp-list-paragraph-header,
- .silk-list-paragraph-header,
- .linen-list-paragraph-header {
-    font-weight: 300;
-    margin-bottom: 0.5em;
-    font-size: 1.25em;
-    text-align: center;
-  }
+
   .ul {
   list-style-type: none;
   padding: 0;
